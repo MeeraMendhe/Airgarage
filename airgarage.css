@@ -37,6 +37,62 @@ nav>div>button:nth-child(3) {
     border-radius: 5px;
     padding: 3% 5% 3% 5%;
 }
+
+#meeradiv1 {
+    display: flex;
+    width: 100%;
+    background-color: rgba(255, 238, 204, 255);
+}
+
+#meeradiv1>div {
+    flex-basis: 50%;
+}
+
+#meeradiv1>div:nth-child(2)>img {
+    width: 90%;
+    padding: 20% 0% 10% 0%;
+}
+
+#meeradiv1>div:nth-child(1) {
+    padding: 10% 0% 0% 0%;
+}
+
+#meeradiv1>div:nth-child(1)>h1 {
+    font-size: 40px;
+    padding: 6% 15% 0% 10%;
+}
+
+#meeradiv1>div:nth-child(1)>p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 5% 15% 0% 10%;
+}
+
+#meeradiv1>div:nth-child(1)>button {
+    margin: 3% 15% 20% 10%;
+    padding: 2% 3% 2% 2%;
+    color: white;
+    font-size: 20px;
+    background-color: #fa824c;
+    border: 1px solid #fa824c;
+}
+
+#meeradiv2 {
+    width: 100%;
+    display: flex;
+    background-color: #ffe7b8;
+}
+
+#meeradiv2>div {
+    flex-basis: 16%;
+    margin: 3% 0% 0% 3%;
+}
+
+#meeradiv2>div>img {
+    width: 75%;
+    filter: invert(88%) sepia(40%) saturate(892%) hue-rotate(310deg) brightness(96%) contrast(73%);
+}
 #h1main {
     width: 100%;
     text-align: center;

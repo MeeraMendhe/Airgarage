@@ -1,40 +1,93 @@
-body {
-    background-color: rgba(244, 246, 248, 255);
+*{
+    padding: 0;
+    margin: 0;
 }
-
-nav {
-    background-color: rgba(255, 238, 204, 255);
-    display: flex;
+#find_parking_main{
+   
     width: 100%;
 }
-
-nav>div:nth-child(1) {
-    flex-basis: 50%;
+.parking_header{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.airgarage_img{
+    /* height: 50px; */
+    /* border: 1px solid blue; */
+    /* height: 0.05%; */
+    width: 15%;
+    padding: 1%;
 }
 
-nav>div:nth-child(2) {
-    flex-basis: 50%;
-    display: flex;
-}
+.find_parking_heading{
+/* border: 1px solid greenyellow; */
+text-align: center;
+margin-top: 1%;
+margin-bottom: 2%;
 nav>div>img {
     width: 20%;
     margin: 4% 0% 2% 3%;
+
+}
+.find_parking_heading>p{
+margin-top: 1%;
+}
+.location_type , .location_down{
+    display: flex;
+    width: 80%;
+    /* padding-top: 2%; */
+    /* justify-content: center; */
+
+    /* align-items: center; */
+    margin: auto;
+    margin-bottom: 1%;
+}
+.location_type >div{
+width: 50%;
+justify-content: center;
+
 }
 
-nav>div>button {
-    text-decoration: none;
-    padding: 2% 5% 2% 5%;
-    margin: 5% 0% 0% 0%;
-    background-color: rgba(255, 238, 204, 255);
-    border: none;
-    font-size: 15px;
-}
-
-nav>div>button:nth-child(3) {
-    border: 1px solid black;
+/* .location_down >div{
+    margin-right: 2%;
+} */
+.location_down >div:nth-child(1){
+    flex-grow: 2;
+    justify-content: center;
+    border: 1px solid grey;
     border-radius: 5px;
-    padding: 3% 5% 3% 5%;
-}
+    height: 50px;
+    margin-right: 2%;
+    
+    }
+    .location_down >div:nth-child(2){
+        flex-grow: 1;
+        justify-content: center;
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: 50px;
+        margin-right: 2%;
+        }
+        .location_down >div:nth-child(3){
+            flex-grow: 1;
+            justify-content: center;
+            border: 1px solid rgba(255, 231, 184, 255); 
+            border-radius: 5px;
+            background-color: rgba(255, 231, 184, 255);
+            height: 50px;
+            
+            }
+            .search_txt{
+                text-align: center;
+                margin: 20px;
+                color: tomato;
+            }
+            .address_txt{
+                /* text-align: center; */
+                margin: 15px;
+                color: black;
+            }
+.popular_search{
+
 
 #meeradiv1 {
     display: flex;
@@ -96,46 +149,74 @@ nav>div>button:nth-child(3) {
 
 #h1main {
     width: 100%;
-    text-align: center;
-    font-size: 30px;
-}
 
-#amanlayout1 {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.hollywood_pic{
+    width: 80%;
     display: flex;
+    justify-content: center;
+    
+    margin: auto;
+}
+.hollywood_pic >div{
+    width: 25%;
+margin-right:3%;
+    /* border: 1px solid green; */
+}
+.hollywood_pic img{
+    /* height: 250px; */
+    width: 100%;
+}
+.hollywood_pic >div >h1{
+    margin-top: 5%;
+    text-align: center;
+}
+.hollywood_pic >div >p{
+    text-align: center;
+    margin-top: 5%;
+    color: grey;
+}
+.parking_footer{
     width: 100%;
     margin-top: 3%;
+    background-color: rgba(250,130,76,255);
+    
 }
-
-#amanleft {
-    flex-basis: 50%;
+.parking_footer >div{
+    text-align: center;
+    /* margin-bottom: 1%; */
+    padding-top: 2%;
+    color: white;
 }
-
-#amanleft>img {
-    width: 100%;
-}
-
-#amanright {
-    flex-basis: 50%;
-    text-align: left;
-}
-
-#amanright>p {
-    font-size: 20px;
-    line-height: 24px;
-    padding-right: 10%;
-    padding-left: 5%;
-}
-
-#rightcontent {
-    width: 100%;
+.homepage_term_contact{
     display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    /* border: 1px solid black; */
+    /* background-color: rgba(255, 231, 184, 255); */
+}
+.homepage_term_contact >div{
+    margin-right: 10px;
+    color: white;
 }
 
-#rightcontent>div>ol>li {
-    list-style: none;
-    font-size: 25px;
-    line-height: 50px;
+.select{
+    width: 100%;
+    height: 100%;
 }
+@media screen and (max-width: 600px) {
+.hollywood_pic{
+    display: grid;
+}
+.hollywood_pic >div{
+    width: 100%;
+}
+}
+=======
 
 
 #amanlayout1div2 {
@@ -670,5 +751,6 @@ nav>div>button:nth-child(3) {
         text-align: center;
     }
 }
+
 
 

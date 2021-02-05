@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(244, 246, 248, 255);
+}
+
+nav {
+    background-color: rgba(255, 238, 204, 255);
+    display: flex;
+    width: 100%;
+}
+
+nav>div:nth-child(1) {
+    flex-basis: 50%;
+}
+
+nav>div:nth-child(2) {
+    flex-basis: 50%;
+    display: flex;
+}
+
+nav>div>img {
+    width: 20%;
+    margin: 4% 0% 2% 3%;
+}
+
+nav>div>button {
+    text-decoration: none;
+    padding: 2% 5% 2% 5%;
+    margin: 5% 0% 0% 0%;
+    background-color: rgba(255, 238, 204, 255);
+    border: none;
+    font-size: 15px;
+}
+
+nav>div>button:nth-child(3) {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3% 5% 3% 5%;
+}

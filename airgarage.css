@@ -36,3 +36,47 @@ nav>div>button:nth-child(3) {
     border-radius: 5px;
     padding: 3% 5% 3% 5%;
 }
+#h1main {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#amanlayout1 {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+}
+
+#amanleft {
+    flex-basis: 50%;
+}
+
+#amanleft>img {
+    width: 100%;
+}
+
+#amanright {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+#amanright>p {
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+#rightcontent {
+    width: 100%;
+    display: flex;
+}
+
+#rightcontent>div>ol>li {
+    list-style: none;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+

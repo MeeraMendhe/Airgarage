@@ -1,3 +1,4 @@
+
 body {
     background-color: rgba(244, 246, 248, 255);
 }
@@ -36,3 +37,101 @@ nav>div>button:nth-child(3) {
     border-radius: 5px;
     padding: 3% 5% 3% 5%;
 }
+#h1main {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#amanlayout1 {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+}
+
+#amanleft {
+    flex-basis: 50%;
+}
+
+#amanleft>img {
+    width: 100%;
+}
+
+#amanright {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+#amanright>p {
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+#rightcontent {
+    width: 100%;
+    display: flex;
+}
+
+#rightcontent>div>ol>li {
+    list-style: none;
+    font-size: 25px;
+    line-height: 50px;
+}
+.Pooransdiv1 {
+    display: flex;
+    background-color: rgba(255, 238, 204, 255);
+    width: 100%;
+    margin: auto;
+    clear: both;
+}
+
+.Pooransdiv1>div {
+    flex-basis: 40%;
+}
+
+.Pooran1left {
+    background-color: #ffffff;
+    padding: 2% 5% 5% 5%;
+}
+
+.Pooran1right>img {
+    width: 70%;
+    margin: 20% 28% 20% 28%;
+}
+
+.Pooran1left>h2 {
+    font-size: 40px;
+}
+
+.Pooran1left>p {
+    font-size: 20px;
+    padding-right: 5%;
+    line-height: 30px;
+    margin-top: 0%;
+}
+
+.Pooran1left>strong {
+    font-size: 20px;
+    font: bold;
+    padding-right: 5%;
+    margin-top: 0%;
+}
+
+.Pooran1left>p:nth-child(2) {
+    background-color: #eaf3ff;
+    color: #5292d1;
+    padding: 5%;
+    font-size: 15px;
+    float: left;
+    margin-top: -15px;
+}
+
+#bigwidthimg {
+    width: 100%;
+    margin: 30% 10% 0% 10%;
+}
+
+
+

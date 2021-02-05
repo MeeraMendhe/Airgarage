@@ -17,7 +17,6 @@ nav>div:nth-child(2) {
     flex-basis: 50%;
     display: flex;
 }
-
 nav>div>img {
     width: 20%;
     margin: 4% 0% 2% 3%;
@@ -135,6 +134,112 @@ nav>div>button:nth-child(3) {
     font-size: 25px;
     line-height: 50px;
 }
+#amanlayout1div2 {
+    display: flex;
+    background-color: rgba(255, 238, 204, 255);
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#amanlayout1div2>div:nth-child(1) {
+    flex-basis: 66%;
+}
+
+#amanlayout1div2>div:nth-child(2) {
+    flex-basis: 34%;
+    margin: auto;
+    text-align: center;
+}
+
+#amanlayout1div2>div:nth-child(1)>p {
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#amanlayout1div2>div:nth-child(2)>button {
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(255, 238, 204, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#amanlayout2 {
+    display: flex;
+    background-color: rgba(255, 238, 204, 255);
+    width: 100%;
+    margin: auto;
+    clear: both;
+}
+
+#amanlayout2left {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+#amanlayout2left>img {
+    width: 70%;
+    margin: 20% 0% 0% 1%;
+}
+
+#amanlayout2right {
+    flex-basis: 50%;
+    background-color: white;
+}
+
+#amanlayout2right>h2 {
+    font-size: 32px;
+    padding: 0% 10% 0% 10%;
+    margin-top: 5%;
+}
+
+#amanlayout2right>p {
+    font-size: 20px;
+    margin-top: -4%;
+    padding: 0% 10% 0% 10%;
+    line-height: 25px;
+}
+
+#amanlayout2right>div {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 10% 0% 10%;
+}
+
+.amanlayout2rightcontent {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.amanlayout2rightcontent:nth-child(1) {
+    margin-top: 5%;
+}
+
+.amanlayout2rightcontent>div:nth-child(1) {
+    flex-basis: 20%;
+}
+
+.amanlayout2rightcontent>div:nth-child(2) {
+    flex-basis: 80%;
+}
+
+.amanlayout2rightcontent>div>img {
+    width: 100%;
+}
+
+.amanlayout2rightcontent>div>h3 {
+    font-size: 26px;
+    margin: 0% 10% 0% 10%;
+}
+
+.amanlayout2rightcontent>div>p {
+    font-size: 22px;
+    margin: 0% 0% 0% 10%;
+}
 .Pooransdiv1 {
     display: flex;
     background-color: rgba(255, 238, 204, 255);
@@ -183,11 +288,7 @@ nav>div>button:nth-child(3) {
     float: left;
     margin-top: -15px;
 }
-
 #bigwidthimg {
     width: 100%;
     margin: 30% 10% 0% 10%;
 }
-
-
-

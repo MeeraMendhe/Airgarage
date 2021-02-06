@@ -1,0 +1,72 @@
+#gauravlayout2 {
+    display: flex;
+    background-color: rgba(255, 238, 204, 255);
+    width: 100%;
+    margin: auto;
+    clear: both;
+}
+
+#gauravlayout2left {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+#gauravlayout2left>img {
+    width: 70%;
+    margin: 20% 0% 0% 1%;
+}
+
+#gauravlayout2right {
+    flex-basis: 50%;
+    background-color: white;
+}
+
+#gauravlayout2right>h2 {
+    font-size: 32px;
+    padding: 0% 10% 0% 10%;
+    margin-top: 5%;
+}
+
+#gauravlayout2right>p {
+    font-size: 20px;
+    margin-top: -4%;
+    padding: 0% 10% 0% 10%;
+    line-height: 25px;
+}
+
+#gauravlayout2right>div {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 10% 0% 10%;
+}
+
+.gauravlayout2rightcontent {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.gauravlayout2rightcontent:nth-child(1) {
+    margin-top: 5%;
+}
+
+.gauravlayout2rightcontent>div:nth-child(1) {
+    flex-basis: 20%;
+}
+
+.gauravlayout2rightcontent>div:nth-child(2) {
+    flex-basis: 80%;
+}
+
+.gauravlayout2rightcontent>div>img {
+    width: 100%;
+}
+
+.gauravlayout2rightcontent>div>h3 {
+    font-size: 26px;
+    margin: 0% 10% 0% 10%;
+}
+
+.gauravlayout2rightcontent>div>p {
+    font-size: 22px;
+    margin: 0% 0% 0% 10%;
+}

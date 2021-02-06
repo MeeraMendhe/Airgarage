@@ -1,13 +1,13 @@
 
-function form() {
-    var parent = document.getElementById("main")
-    var div = document.createElement('div')
-    var btn = document.createElement("button")
-    parent.append(div)
-    div.append(btn)
-    btn.textContent = "submit"
+function demobutton(){
+    document.location.href = "demo.html";
 }
-
-var sub = document.getElementsById("fun")
-sub.addEventListener("click", form)
-
+function loginbutton(){
+    document.location.href = "login.html";
+}
+function findparking(){
+    document.location.href = "find_parking.html";
+}
+function signup(){
+    document.location.href = "singup.html";
+}

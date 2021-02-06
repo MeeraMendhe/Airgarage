@@ -1,23 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airgarage.com</title>
+    <link rel="stylesheet" href="airgarage.css">
 </head>
 <body>
-
- <header>
+    <header>
         <nav>
             <div class="logo">
-                <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png"
-                    alt="">
+               <a href="index.html"><img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png"
+                    alt=""></a>
             </div>
             <div class="navlist">
-                <button>GET A DEMO</button>
-                <button>LOG IN</button>
-                <button>FIND PARKING</button>
+                <button onclick="demobutton()">GET A DEMO</button>
+               <button onclick="loginbutton()">LOG IN</button>
+               <button class="animationimg" onclick="findparking()">FIND PARKING</button>
             </div>
             <div id="hamburger" class="ham">
                 <div class="line1"></div>
@@ -26,16 +26,17 @@
             </div>
         </nav>
     </header>
+    <!-- done1 -->
     <div id="meeradiv1">
         <div>
             <h1>A parking operator built for the 21st century</h1>
             <p>AirGarage handles everything from advertising your parking garage to collecting payments from drivers and
                 enforcing against illegal parking so you don't have to.</p>
-            <button>Get a demo &rarr;</button>
+            <button class="animationimg" onclick="demobutton()">Get a demo &rarr;</button>
         </div>
         <div>
             <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f5d15cb6b7f898a78507_phone_car_app.png"
-                alt="" id="meeraimg">
+                alt="" id="meeraimg" class="animationimg">
         </div>
     </div>
     <div id="meeradiv2">
@@ -62,7 +63,11 @@
         <div>
             <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d5744413f27896522793e7e_fumc.png"
                 alt="">
-
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- done2 -->
     <h1 id="h1main">Built With Parking Owners, For Parking Owners</h1>
     <div id="amanlayout1">
         <div id="amanleft">
@@ -92,6 +97,8 @@
             </div>
         </div>
     </div>
+    <!-- done2 -->
+    <!-- done4 -->
     <div id="amanlayout1div2">
         <div>
             <p>
@@ -99,7 +106,7 @@
             </p>
         </div>
         <div>
-            <button>Request a Quote &rarr;</button>
+            <button class="animationimg">Request a Quote &rarr;</button>
         </div>
     </div>
     <div id="amanlayout2">
@@ -114,7 +121,7 @@
                 <div class="amanlayout2rightcontent">
                     <div>
                         <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a1f2937a53c7a2bfb65b7_slider.png"
-                            alt="" id="transimg">
+                            alt="" id="transimg" class="animationimg">
                     </div>
                     <div>
                         <h3>Dynamic Pricing</h3>
@@ -124,7 +131,7 @@
                 <div class="amanlayout2rightcontent">
                     <div>
                         <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a1f2ad706274a0ef3a1a1_night.png"
-                            alt="">
+                            alt="" class="animationimg">
                     </div>
                     <div>
                         <h3>Always On Operations</h3>
@@ -135,7 +142,7 @@
                 <div class="amanlayout2rightcontent">
                     <div>
                         <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a1f2957e7c929611df3bb_secure.png"
-                            alt="">
+                            alt="" class="animationimg">
                     </div>
                     <div>
                         <h3>No Cash, No Leakage</h3>
@@ -145,7 +152,7 @@
                 <div class="amanlayout2rightcontent">
                     <div>
                         <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a1f28039ee32a88bdfae6_cover.png"
-                            alt="">
+                            alt="" class="animationimg">
                     </div>
                     <div>
                         <h3>Transparent Revenue Share</h3>
@@ -158,8 +165,9 @@
     </div>
     <br>
     <br>
-
-       <div class="Pooransdiv1">
+    <!-- done4 -->
+    <!-- done3 -->
+    <div class="Pooransdiv1">
         <div class="Pooran1left" id="widi">
             <h2>Transparent Operation</h2>
             <p>We share all of our data with you, so you’re always aware what’s happening on your property.</p>
@@ -179,8 +187,7 @@
     </div>
     <br>
     <br>
-    <br>
-    <br>
+    <!-- done3 -->
     <div id="gauravlayout2">
         <div id="gauravlayout2left">
             <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d8e56a745d6500e5de20c14_enforced.png"
@@ -193,7 +200,7 @@
                 <div class="gauravlayout2rightcontent">
                     <div>
                         <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1746f70e9b2f62828bc0a3_alpr.png"
-                            alt="">
+                            alt="" class="animationimg">
                     </div>
                     <div>
                         <h3>LPR Cameras</h3>
@@ -203,7 +210,7 @@
                 <div class="gauravlayout2rightcontent">
                     <div>
                         <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f177034af74df8b86413b9e_tow.png"
-                            alt="">
+                            alt="" class="animationimg">
                     </div>
                     <div>
                         <h3>Local Partners</h3>
@@ -214,7 +221,7 @@
                 <div class="gauravlayout2rightcontent">
                     <div>
                         <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f17467d93b9a169c1bc99cb_spaceforce.png"
-                            alt="">
+                            alt="" class="animationimg">
                     </div>
                     <div>
                         <h3>Space Force</h3>
@@ -254,7 +261,7 @@
             </h3>
         </div>
         <div>
-            <button>Get a Demo &rarr;</button>
+            <button class="animationimg" onclick="demobutton()">Get a Demo &rarr;</button>
         </div>
     </div>
     <footer id="Pooranfooter">
@@ -264,60 +271,58 @@
             <div>
                 <h2>Company</h2>
                 <ul>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
-                    <li>FAQ</li>
-                    <li>Terms</li>
-                    <li>Press</li>
+                    <li class="hovli">About</li>
+                    <li class="hovli">Blog</li>
+                    <li class="hovli">Careers</li>
+                    <li class="hovli">FAQ</li>
+                    <li class="hovli">Terms</li>
+                    <li class="hovli">Press</li>
                 </ul>
             </div>
             <div>
                 <h2>Sell Parking</h2>
                 <ul>
-                    <li>How it Works</li>
-                    <li>Pricing</li>
-                    <li>Churches</li>
-                    <li>Hotel</li>
-                    <li>Professional
+                    <li class="hovli">How it Works</li>
+                    <li class="hovli">Pricing</li>
+                    <li class="hovli">Churches</li>
+                    <li class="hovli">Hotel</li>
+                    <li class="hovli">Professional
                         <br> Garages
                     </li>
-                    <li>Surface Lots</li>
+                    <li class="hovli">Surface Lots</li>
                 </ul>
             </div>
             <div>
                 <h2>Cities</h2>
                 <ul>
-                    <li>Denver</li>
-                    <li>Austin</li>
-                    <li>Tempe</li>
-                    <li>Los Angeles</li>
-                    <li>All Locations</li>
+                    <li class="hovli">Denver</li>
+                    <li class="hovli">Austin</li>
+                    <li class="hovli">Tempe</li>
+                    <li class="hovli">Los Angeles</li>
+                    <li class="hovli">All Locations</li>
                 </ul>
             </div>
             <div>
                 <h2>Contact</h2>
                 <ul>
-                    <li>Get demo</li>
-                    <li>Customer
+                    <li onclick="demobutton()" class="hovli">Get demo</li>
+                    <li class="hovli">Customer
                         <br>
                         Support
                     </li>
-                    <li>Referrals</li>
+                    <li class="hovli">Referrals</li>
                 </ul>
             </div>
             <div>
                 <h2>Get the App</h2>
                 <ul>
-                    <li>For iOS</li>
-                    <li>For Android</li>
+                    <li class="hovli">For iOS</li>
+                    <li class="hovli">For Android</li>
                 </ul>
             </div>
         </div>
         <div id="footercopyright">Air Garage, Inc. &#169; 2021</div>
-        <script>
-        </script>
     </footer>
+    <script src="airgarage.js"></script>
 </body>
 </html>
-

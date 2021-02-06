@@ -1,94 +1,41 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-#find_parking_main{
-   
-    width: 100%;
-}
-.parking_header{
-    width: 100%;
-    /* border: 1px solid black; */
-}
-.airgarage_img{
-    /* height: 50px; */
-    /* border: 1px solid blue; */
-    /* height: 0.05%; */
-    width: 15%;
-    padding: 1%;
+body {
+    background-color: rgba(244, 246, 248, 255);
 }
 
-.find_parking_heading{
-/* border: 1px solid greenyellow; */
-text-align: center;
-margin-top: 1%;
-margin-bottom: 2%;
-nav>div>img {
+nav {
+    background-color: rgba(255, 238, 204, 255);
+    display: flex;
+    width: 100%;
+}
+
+nav>div:nth-child(1) {
+    flex-basis: 50%;
+}
+
+nav>div:nth-child(2) {
+    flex-basis: 50%;
+    display: flex;
+}
+nav>div> a >img {
     width: 20%;
     margin: 4% 0% 2% 3%;
-
-}
-.find_parking_heading>p{
-margin-top: 1%;
-}
-.location_type , .location_down{
-    display: flex;
-    width: 80%;
-    /* padding-top: 2%; */
-    /* justify-content: center; */
-
-    /* align-items: center; */
-    margin: auto;
-    margin-bottom: 1%;
-}
-.location_type >div{
-width: 50%;
-justify-content: center;
-
 }
 
-/* .location_down >div{
-    margin-right: 2%;
-} */
-.location_down >div:nth-child(1){
-    flex-grow: 2;
-    justify-content: center;
-    border: 1px solid grey;
+.navlist > button {
+    text-decoration: none;
+    padding: 2% 5% 2% 5%;
+    margin: 5% 0% 0% 0%;
+    background-color: rgba(255, 238, 204, 255);
+    border: none;
+    font-size: 15px;
+}
+
+nav>div> button:nth-child(3) {
+    border: 1px solid black;
     border-radius: 5px;
-    height: 50px;
-    margin-right: 2%;
-    
-    }
-    .location_down >div:nth-child(2){
-        flex-grow: 1;
-        justify-content: center;
-        border: 1px solid grey;
-        border-radius: 5px;
-        height: 50px;
-        margin-right: 2%;
-        }
-        .location_down >div:nth-child(3){
-            flex-grow: 1;
-            justify-content: center;
-            border: 1px solid rgba(255, 231, 184, 255); 
-            border-radius: 5px;
-            background-color: rgba(255, 231, 184, 255);
-            height: 50px;
-            
-            }
-            .search_txt{
-                text-align: center;
-                margin: 20px;
-                color: tomato;
-            }
-            .address_txt{
-                /* text-align: center; */
-                margin: 15px;
-                color: black;
-            }
-.popular_search{
-
-
+    padding: 3% 5% 3% 5%;
+}
+/* done 1*/
 #meeradiv1 {
     display: flex;
     width: 100%;
@@ -146,79 +93,51 @@ justify-content: center;
 }
 
 /* aman layout 1 css starts here */
-
+/* done2 */
 #h1main {
     width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
 
-    text-align: center;
-    margin-top: 2%;
-    font-size: 20px;
-    margin-bottom: 2%;
-}
-.hollywood_pic{
-    width: 80%;
+#amanlayout1 {
     display: flex;
-    justify-content: center;
-    
-    margin: auto;
-}
-.hollywood_pic >div{
-    width: 25%;
-margin-right:3%;
-    /* border: 1px solid green; */
-}
-.hollywood_pic img{
-    /* height: 250px; */
-    width: 100%;
-}
-.hollywood_pic >div >h1{
-    margin-top: 5%;
-    text-align: center;
-}
-.hollywood_pic >div >p{
-    text-align: center;
-    margin-top: 5%;
-    color: grey;
-}
-.parking_footer{
     width: 100%;
     margin-top: 3%;
-    background-color: rgba(250,130,76,255);
-    
 }
-.parking_footer >div{
-    text-align: center;
-    /* margin-bottom: 1%; */
-    padding-top: 2%;
-    color: white;
+
+#amanleft {
+    flex-basis: 50%;
 }
-.homepage_term_contact{
+
+#amanleft>img {
+    width: 100%;
+}
+
+#amanright {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+#amanright>p {
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+#rightcontent {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    padding-bottom: 2%;
-    /* border: 1px solid black; */
-    /* background-color: rgba(255, 231, 184, 255); */
-}
-.homepage_term_contact >div{
-    margin-right: 10px;
-    color: white;
 }
 
-.select{
-    width: 100%;
-    height: 100%;
+#rightcontent>div>ol>li {
+    list-style: none;
+    font-size: 25px;
+    line-height: 50px;
 }
-@media screen and (max-width: 600px) {
-.hollywood_pic{
-    display: grid;
-}
-.hollywood_pic >div{
-    width: 100%;
-}
-}
-=======
-
-
+/* done2 */
+/* done4 */
 #amanlayout1div2 {
     display: flex;
     background-color: rgba(255, 238, 204, 255);
@@ -325,118 +244,7 @@ margin-right:3%;
     font-size: 22px;
     margin: 0% 0% 0% 10%;
 }
-.Pooransdiv1 {
-
-    display: flex;
-    background-color: rgba(255, 238, 204, 255);
-    width: 100%;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-#amanlayout1div2>div:nth-child(1) {
-    flex-basis: 66%;
-}
-
-#amanlayout1div2>div:nth-child(2) {
-    flex-basis: 34%;
-    margin: auto;
-    text-align: center;
-}
-
-#amanlayout1div2>div:nth-child(1)>p {
-    font-size: 25px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-}
-
-#amanlayout1div2>div:nth-child(2)>button {
-    font-size: 20px;
-    padding: 10px 15px 10px 15px;
-    background-color: rgba(255, 238, 204, 255);
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-#bigwidthimg {
-    width: 100%;
-    margin: 30% 10% 0% 10%;
-}
-#amanlayout2 {
-    display: flex;
-    background-color: rgba(255, 238, 204, 255);
-    width: 100%;
-    margin: auto;
-    clear: both;
-}
-
-#amanlayout2left {
-    flex-basis: 50%;
-    text-align: center;
-}
-
-#amanlayout2left>img {
-    width: 70%;
-    margin: 20% 0% 0% 1%;
-}
-
-#amanlayout2right {
-    flex-basis: 50%;
-    background-color: white;
-}
-
-#amanlayout2right>h2 {
-    font-size: 32px;
-    padding: 0% 10% 0% 10%;
-    margin-top: 5%;
-}
-
-#amanlayout2right>p {
-    font-size: 20px;
-    margin-top: -4%;
-    padding: 0% 10% 0% 10%;
-    line-height: 25px;
-}
-
-#amanlayout2right>div {
-    display: flex;
-    flex-direction: column;
-    padding: 0% 10% 0% 10%;
-}
-
-.amanlayout2rightcontent {
-    display: flex;
-    margin-bottom: 10%;
-}
-
-.amanlayout2rightcontent:nth-child(1) {
-    margin-top: 5%;
-}
-
-.amanlayout2rightcontent>div:nth-child(1) {
-    flex-basis: 20%;
-}
-
-.amanlayout2rightcontent>div:nth-child(2) {
-    flex-basis: 80%;
-}
-
-.amanlayout2rightcontent>div>img {
-    width: 100%;
-}
-
-.amanlayout2rightcontent>div>h3 {
-    font-size: 26px;
-    margin: 0% 10% 0% 10%;
-}
-
-.amanlayout2rightcontent>div>p {
-    font-size: 22px;
-    margin: 0% 0% 0% 10%;
-}
-
+        /* done4 */
 /* Gaurav Css starts here */
 #gauravlayout2 {
     display: flex;
@@ -512,6 +320,7 @@ margin-right:3%;
 }
 
 /* Poorans Css starts Here  */
+/* done3 */
 .Pooransdiv1 {
     display: flex;
     background-color: rgba(255, 238, 204, 255);
@@ -565,7 +374,7 @@ margin-right:3%;
     width: 100%;
     margin: 30% 10% 0% 10%;
 }
-
+/* done3 */
 #Pooransdiv2 {
     display: flex;
     background-color: rgba(255, 238, 204, 255);
@@ -648,6 +457,27 @@ margin-right:3%;
     display: none;
 }
 
+ /* animation images done here */
+ .animationimg:hover{
+    position: relative;
+    animation-name: airgarage;
+    -ms-transform: scale(.2); 
+    -webkit-transform: scale(.2); 
+    transform: scale(.8);
+} 
+
+@keyframes airgarage{
+    from{
+        width: 70%;
+    }
+    to{
+        width: 65%;
+    }
+
+}
+.hovli:hover{
+    text-decoration: underline;
+}
 /* Media screen starts here  */
 
 @media screen and (max-width: 768px) {
@@ -771,7 +601,7 @@ margin-right:3%;
     font-size:15px;
     padding:10px;
     margin-bottom:20px;
-    margin-left:500px;
+    margin-left:36%;
 }
 #demo>form>input
 {
@@ -784,7 +614,7 @@ margin-right:3%;
     margin-top: 10px;
     color:rgb(243,243,243) ;
     padding-left:10px;
-    margin-left:500px;
+    margin-left:36%;
 
 }
 #demo>form>button
@@ -796,7 +626,7 @@ margin-right:3%;
     border: 1px solid rgb(250, 130, 76);
     color: white;
     padding:15px;
-    margin-left:500px;
+    margin-left:36%;
 }
 .demofooter1
 {
@@ -998,12 +828,7 @@ margin-right:3%;
     background-color:rgb(244,246,248,255);
     border:1px solid rgb(244,246,248,255);
 } 
-
 /* find parking page */
-*{
-    padding: 0;
-    margin: 0;
-}
 #find_parking_main{
    
     width: 100%;
@@ -1019,7 +844,6 @@ margin-right:3%;
 }
 .find_parking_heading{
 
-=========
 text-align: center;
 margin-top: 1%;
 margin-bottom: 2%;
@@ -1139,4 +963,5 @@ margin-right:3%;
 }
 .hollywood_pic >div{
     width: 100%;
+}
 }

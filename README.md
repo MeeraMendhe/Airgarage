@@ -13,3 +13,6 @@ https://www.w3schools.com/howto/howto_css_modal_images.asp
 
 for add image icone in input
 https://www.w3schools.com/howto/howto_css_form_icon.asp
+
+Aman blog link
+https://amankumar.hashnode.dev/clone-of-airgarage-website-within-3-day
